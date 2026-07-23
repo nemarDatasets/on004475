@@ -1,0 +1,199 @@
+{
+  "dataset_id": "on004475",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:28.122Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds004475"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 133,
+    "files_declared": 163,
+    "bytes_present": 121041526465,
+    "bytes_declared": 121664963919,
+    "pct_bytes": 0.9948757848281198
+  },
+  "missing": [
+    {
+      "path": "sub-S18/anat/sub-S18_T1w.nii",
+      "key": "SHA256E-s20275552--589187c3751752e9d5742cbe11d13bdc601422f820b6d0597a249cb017f37af1.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S19/anat/sub-S19_T1w.nii",
+      "key": "SHA256E-s20275552--d597e7c3ffabdf09e3d4d70a9d718f308ede9ee8cc4c7f910f972978e457b793.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S20/anat/sub-S20_T1w.nii",
+      "key": "SHA256E-s20275552--aaea339716ea5c17ccd6ff956163bc487a50dd9b6cb5de2730bc445bf0723d95.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S21/anat/sub-S21_T1w.nii",
+      "key": "SHA256E-s20275552--2a814bbe5161f2ea8362f9596e315da988e94d940a42e14b03220161da487278.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S22/anat/sub-S22_T1w.nii",
+      "key": "SHA256E-s20275552--5436778f10e3411b0a2914262c12993efc5ed729cca94ee74800e0e91137be2b.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S23/anat/sub-S23_T1w.nii",
+      "key": "SHA256E-s20275552--66653f6407b53f21fa994ee34d68f097a3b8592a9041b4901ded4accb579ea6f.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S24/anat/sub-S24_T1w.nii",
+      "key": "SHA256E-s20275552--c081b41a519244ee702185ddf5a2bdc6b8fbfbe54b8eb5a2d59d49da89326f1c.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S25/anat/sub-S25_T1w.nii",
+      "key": "SHA256E-s20275552--fb01a8e000684bdbca5f7affab6e3a272a0131e28dfedbb4b928d63a55045579.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S26/anat/sub-S26_T1w.nii",
+      "key": "SHA256E-s20275552--7fcb43de2d269426afa60413423ef28b73c88523373383e08793840db5a945df.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S27/anat/sub-S27_T1w.nii",
+      "key": "SHA256E-s23069024--2ce883780784e75b1cc811013d35d4d27d8abd327f8187c3b73e9f97bdffe987.nii",
+      "declared_size": 23069024,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S28/anat/sub-S28_T1w.nii",
+      "key": "SHA256E-s20275552--d6df9ea5dbdd3878942924c19e924c65768d9fc8190ce4b36112116d2762d331.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S29/anat/sub-S29_T1w.nii",
+      "key": "SHA256E-s20275552--eefbd3d338d45a30aba0f5f55142884fbb02f5881a5370a9b1bc5577e5f4fa09.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S30/anat/sub-S30_T1w.nii",
+      "key": "SHA256E-s20275552--6a4af0179e9632b9522c2cc897c3bbe82de52d7c8dd37d9777f49f7925060c22.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S31/anat/sub-S31_T1w.nii",
+      "key": "SHA256E-s20275552--548334463d42c3372fd80c5fca1a641fdb1076781711acba448788ccec0f064e.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S32/anat/sub-S32_T1w.nii",
+      "key": "SHA256E-s20275552--7739d47ae6a0401de1c69471363d7e374ff26dae7883af7cdb20736a06dbd35c.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S33/anat/sub-S33_T1w.nii",
+      "key": "SHA256E-s20275552--807c8f13234c8bf871a356408eda24343ab302492690fac8cac17b3db6841be5.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S34/anat/sub-S34_T1w.nii",
+      "key": "SHA256E-s20275552--c9ae6fc36a65aa5337e982f6b4f1c72a1c9e804e805ab90adf606a13be17fbb6.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S35/anat/sub-S35_T1w.nii",
+      "key": "SHA256E-s20275552--a7961fa414e2ab9d4a3f003370c8822d4d203353879d29dbb6e0f21580d8614d.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S36/anat/sub-S36_T1w.nii",
+      "key": "SHA256E-s20275552--3d87a896c90542add1fec9b6c23be14b308bd5eb8dcd69c7598d8c8947228e0e.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S37/anat/sub-S37_T1w.nii",
+      "key": "SHA256E-s20275552--37e88aaf464d6e50da78d53a4b4c4d54189337ae8aae6b7a1d5bb55c28e601af.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S38/anat/sub-S38_T1w.nii",
+      "key": "SHA256E-s20275552--ddf3f21941672a33184a0587ea476a3963871d54ca6546d596b972ca1ada1d83.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S39/anat/sub-S39_T1w.nii",
+      "key": "SHA256E-s20275552--d77f61f84ae011dce6a4f772e7e665b54e73cfd6aa08a728113c845286022c39.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S40/anat/sub-S40_T1w.nii",
+      "key": "SHA256E-s20275552--2081c7dbe88d40b7ebbfe16b140e1d51cf1375eb95afba0f7f59cd0e1ef242d4.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S41/anat/sub-S41_T1w.nii",
+      "key": "SHA256E-s20275552--a33e47792ecf9737a7fdd47d20e811885bf00cdd273216bd2b9b50ce50582d8a.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S42/anat/sub-S42_T1w.nii",
+      "key": "SHA256E-s20275552--1323cac6cb6a952bdddfa7d761173f9ff6f26a13b29349305167c77c856791b3.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S43/anat/sub-S43_T1w.nii",
+      "key": "SHA256E-s20275552--5debfadf8cb2f17d46c66796750ebd0f4e1442d1c4a894f689fa08b2fe67112e.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S44/anat/sub-S44_T1w.nii",
+      "key": "SHA256E-s20275552--5e10ddced4cddb82bb2634aedd814ae2e5334ec9cd495e1fb3cc372e60d96a7e.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S46/anat/sub-S46_T1w.nii",
+      "key": "SHA256E-s20275552--4f1a25f9d0d908e844e7b7974c40a07c409b166bb2b51d741575dcee312c1138.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S47/anat/sub-S47_T1w.nii",
+      "key": "SHA256E-s20275552--7c7b4ac70c732f948a7032f640c4e2b689d2bf7c957879be7a4d6a912a5acc86.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-S48/anat/sub-S48_T1w.nii",
+      "key": "SHA256E-s20275552--282dd2f33cef674b5bfbc6ad2137c1829e49b3ca4d522b74da9d59fc783d3357.nii",
+      "declared_size": 20275552,
+      "reason": "zero_byte"
+    }
+  ]
+}
