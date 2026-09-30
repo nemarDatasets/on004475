@@ -1,39 +1,101 @@
 {
   "version": "2.0",
-  "dataset_id": "on004475",
-  "source": "openneuro",
-  "source_id": "ds004475",
+  "pipeline_stage": "validated",
   "title": "Mobile EEG split-belt walking study",
-  "authors": {
-    "Noelle A. Jacobsen": {},
-    "Daniel P. Ferris": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Noelle A. Jacobsen": {
+      "orcid": "0000-0002-2415-4800",
+      "affiliations": [
+        {
+          "name": "J. Crayton Pruitt Family Department of Biomedical Engineering University of Florida Gainesville Florida USA"
+        }
+      ]
+    },
+    "Daniel P. Ferris": {
+      "orcid": "0000-0001-6373-6021",
+      "affiliations": [
+        {
+          "name": "J. Crayton Pruitt Family Department of Biomedical Engineering University of Florida Gainesville Florida USA"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004475.v1.0.3",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1113/JP284505",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004475",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004475",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
-    "anat",
-    "eeg"
-  ],
-  "datatypes": [
-    "anat",
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH R01-NS104772"
+      "funder_name": "NIH",
+      "award_number": "R01-NS104772"
     },
     {
-      "funder_name": "T32-NS082128"
+      "funder_name": "NIH",
+      "award_number": "T32-NS082128"
     }
   ],
-  "acknowledgements": "Noelle A. Jacobsen and Daniel P. Ferris (2023). Mobile EEG split-belt walking study. OpenNeuro. [Dataset] doi:10.18112/openneuro.ds004475.v1.0.0"
+  "modalities": [
+    "anat",
+    "eeg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "113 GB (134 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".mat",
+    ".md",
+    ".nii",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "description": "Mobile brain/body imaging (MoBI) dataset of scalp EEG recorded during split-belt treadmill walking to study cortical activity related to locomotor adaptation. Thirty participants completed abrupt and gradual split-belt walking paradigms with a 2:1 belt speed ratio.",
+  "methods_description": "Thirty participants walked on a split-belt treadmill with abrupt and gradual adaptation paradigms at a 2:1 belt speed ratio while mobile EEG was recorded.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "mobile brain/body imaging"
+    },
+    {
+      "term": "split-belt treadmill"
+    },
+    {
+      "term": "gait adaptation"
+    },
+    {
+      "term": "locomotor adaptation"
+    },
+    {
+      "term": "Walking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016138"
+    }
+  ],
+  "source_hash": "54e9eb48e628feb31b9d00452cdb0532fb56b8be8f784f1917487f8305cd762e"
 }
